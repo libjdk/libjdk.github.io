@@ -1,0 +1,14 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: libjdk
+description: another way to write C++
+
+site:
+  show_downloads: "false"
+
+github:
+  is_project_page: false
+  repository_url: https://github.com/libjdk/libjdk
+  zip_url: https://github.com/libjdk/libjdk/archive/refs/heads/main.zip
