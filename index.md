@@ -24,43 +24,44 @@ The project includes implementations of the following Java modules:
 
 ### Core Modules
 - [**java.base**](https://github.com/libjdk/java.base) - Core Java classes and utilities
-- [**java.compiler**](https://github.com/libjdk/java.compiler) - Java compiler API
-- [**java.logging**](https://github.com/libjdk/java.logging) - Logging framework
+- [**java.compiler**](https://github.com/libjdk/libjdk/libs/java.compiler) - Java compiler API
+- [**java.logging**](https://github.com/libjdk/libjdk/libs/java.logging) - Logging framework
 - [**java.xml**](https://github.com/libjdk/java.xml) - XML processing
-- [**java.xml.crypto**](https://github.com/libjdk/java.xml.crypto) - XML cryptography
+- [**java.xml.crypto**](https://github.com/libjdk/libjdk/libs/java.xml.crypto) - XML cryptography
 
 ### Networking & Communication
-- [**java.net.http**](https://github.com/libjdk/java.net.http) - HTTP client
-- [**java.rmi**](https://github.com/libjdk/java.rmi) - Remote Method Invocation
-- [**java.naming**](https://github.com/libjdk/java.naming) - Naming and directory services
-- [**java.security.sasl**](https://github.com/libjdk/java.security.sasl) - SASL authentication
-- [**java.security.jgss**](https://github.com/libjdk/java.security.jgss) - Generic Security Services
+- [**java.net.http**](https://github.com/libjdk/libjdk/libs/java.net.http) - HTTP client
+- [**java.rmi**](https://github.com/libjdk/libjdk/libs/java.rmi) - Remote Method Invocation
+- [**java.naming**](https://github.com/libjdk/libjdk/libs/java.naming) - Naming and directory services
+- [**java.security.sasl**](https://github.com/libjdk/libjdk/libs/java.security.sasl) - SASL authentication
+- [**java.security.jgss**](https://github.com/libjdk/libjdk/libs/java.security.jgss) - Generic Security Services
 
 ### Database & Transactions
-- [**java.sql**](https://github.com/libjdk/java.sql) - Database connectivity
-- [**java.sql.rowset**](https://github.com/libjdk/java.sql.rowset) - RowSet implementations
-- [**java.transaction.xa**](https://github.com/libjdk/java.transaction.xa) - XA transaction support
+- [**java.sql**](https://github.com/libjdk/libjdk/libs/java.sql) - Database connectivity
+- [**java.sql.rowset**](https://github.com/libjdk/libjdk/libs/java.sql.rowset) - RowSet implementations
+- [**java.transaction.xa**](https://github.com/libjdk/libjdk/libs/java.transaction.xa) - XA transaction support
 
 ### Desktop & UI
 - [**java.desktop**](https://github.com/libjdk/java.desktop) - Desktop applications (Windows only)
-- [**java.datatransfer**](https://github.com/libjdk/java.datatransfer) - Data transfer operations
-- [**java.prefs**](https://github.com/libjdk/java.prefs) - User preferences
+- [**java.datatransfer**](https://github.com/libjdk/libjdk/libs/java.datatransfer) - Data transfer operations
+- [**java.prefs**](https://github.com/libjdk/libjdk/libs/java.prefs) - User preferences
 
 ### Management & Monitoring
-- [**java.management**](https://github.com/libjdk/java.management) - Management and monitoring
-- [**java.management.rmi**](https://github.com/libjdk/java.management.rmi) - RMI-based management
-- [**java.instrument**](https://github.com/libjdk/java.instrument) - Java instrumentation
+- [**java.management**](https://github.com/libjdk/libjdk/libs/java.management) - Management and monitoring
+- [**java.management.rmi**](https://github.com/libjdk/libjdk/libs/java.management.rmi) - RMI-based management
+- [**java.instrument**](https://github.com/libjdk/libjdk/libs/java.instrument) - Java instrumentation
 
 ### Additional Modules
-- [**java.scripting**](https://github.com/libjdk/java.scripting) - Scripting engine
-- [**jdk.compiler**](https://github.com/libjdk/jdk.compiler) - JDK compiler tools
-- [**jdk.httpserver**](https://github.com/libjdk/jdk.httpserver) - HTTP server
-- [**jdk.charsets**](https://github.com/libjdk/jdk.charsets) - Character set support
+- [**java.scripting**](https://github.com/libjdk/libjdk/libs/java.scripting) - Scripting engine
+- [**jdk.compiler**](https://github.com/libjdk/libjdk/libs/jdk.compiler) - JDK compiler tools
+- [**jdk.httpserver**](https://github.com/libjdk/libjdk/libs/jdk.httpserver) - HTTP server
+- [**jdk.charsets**](https://github.com/libjdk/libjdk/libs/jdk.charsets) - Character set support
 - [**jdk.localedata**](https://github.com/libjdk/jdk.localedata) - Locale data
-- [**jdk.net**](https://github.com/libjdk/jdk.net) - Network utilities
-- [**jdk.unsupported**](https://github.com/libjdk/jdk.unsupported) - Unsupported APIs
-- [**jdk.zipfs**](https://github.com/libjdk/jdk.zipfs) - ZIP file system
-- [**java.se**](https://github.com/libjdk/java.se) - Java SE platform (Windows only)
+- [**jdk.net**](https://github.com/libjdk/libjdk/libs/jdk.net) - Network utilities
+- [**jdk.unsupported**](https://github.com/libjdk/libjdk/libs/jdk.unsupported) - Unsupported APIs
+- [**jdk.jartool**](https://github.com/libjdk/libjdk/libs/jdk.jartool) - jar tool
+- [**jdk.zipfs**](https://github.com/libjdk/libjdk/libs/jdk.zipfs) - ZIP file system
+- [**java.se**](https://github.com/libjdk/libjdk/libs/java.se) - Java SE platform (Windows only)
 
 ## Core Runtime Features
 
