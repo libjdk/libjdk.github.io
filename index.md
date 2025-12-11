@@ -42,7 +42,7 @@ The project includes implementations of the following Java modules:
 - [**java.transaction.xa**](https://github.com/libjdk/libjdk/libs/java.transaction.xa) - XA transaction support
 
 ### Desktop & UI
-- [**java.desktop**](https://github.com/libjdk/java.desktop) - Desktop applications (Windows only)
+- [**java.desktop**](https://github.com/libjdk/java.desktop) - Desktop applications
 - [**java.datatransfer**](https://github.com/libjdk/libjdk/libs/java.datatransfer) - Data transfer operations
 - [**java.prefs**](https://github.com/libjdk/libjdk/libs/java.prefs) - User preferences
 
@@ -61,7 +61,7 @@ The project includes implementations of the following Java modules:
 - [**jdk.unsupported**](https://github.com/libjdk/libjdk/libs/jdk.unsupported) - Unsupported APIs
 - [**jdk.jartool**](https://github.com/libjdk/libjdk/libs/jdk.jartool) - jar tool
 - [**jdk.zipfs**](https://github.com/libjdk/libjdk/libs/jdk.zipfs) - ZIP file system
-- [**java.se**](https://github.com/libjdk/libjdk/libs/java.se) - Java SE platform (Windows only)
+- [**java.se**](https://github.com/libjdk/libjdk/libs/java.se) - Java SE platform
 
 ## Core Runtime Features
 
@@ -99,7 +99,7 @@ libjdk implements high-performance, low-latency automatic memory management:
 
 ## Requirements
 
-- **CMake**: Version 3.30 or higher
+- **CMake**: Version 3.23 or higher
 - **C++ Compiler**: Supporting C++17 or later
 - **Platform Support**:
   - Windows (x86_64, aarch64)
@@ -122,15 +122,10 @@ After building and installing, you can use the libraries in your C++ projects:
 ```cpp
 #include <jcpp.h>
 
-int main() {
-    $System::init();
-    try {
-        $System::out->println("hello, world"_s);
-    } catch ($Throwable& e) {
-        e->printStackTrace();
-    }
-    $System::deinit();
-    return 0;
+int main(int argc, char** argv) {
+	return $System::launch(argc, argv, false, nullptr, []($StringArray* args)->void {
+		$System::out->println("hello, world"_s);
+	});
 }
 ```
 
